@@ -11,7 +11,7 @@ public class SnakeLadders{
 		return value1; 
 	}
 	public static boolean snake(int h,int j) {
-		if(h==1&&j==2)//lader
+		if(h==1&&j==2)
 		{
 		return true;
 	    }
@@ -58,7 +58,7 @@ public class SnakeLadders{
 			System.out.println();
 		}
 		
-		System.out.println("Enter 'y' to roll the dice");
+		System.out.println("Enter 'y ' to roll the dice");
 		char y = sc.next().charAt(0);
 		int dice=-1;
 		if(y=='y')
