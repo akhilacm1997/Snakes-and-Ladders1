@@ -11,7 +11,7 @@ public class SnakeLadders{
 		return value1; 
 	}
 	public static boolean snake(int i,int j) {
-		if(i==1&&j==2)
+		if(i==1&&j==2)//lader
 		{
 		return true;
 	    }
@@ -20,9 +20,9 @@ public class SnakeLadders{
 			return false;
 		}
 	}
-	public static boolean ladder(int i,int j) 
+	public static boolean ladder(int m,int j) 
 	{
-		if(i==0&&j==2)
+		if(m==0&&j==2)
 		{
 		return true;
 	    }
