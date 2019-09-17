@@ -10,8 +10,8 @@ public class SnakeLadders{
 		int value1 = rand.nextInt(5);
 		return value1; 
 	}
-	public static boolean snake(int i,int j) {
-		if(i==1&&j==2)//lader
+	public static boolean snake(int h,int j) {
+		if(h==1&&j==2)//lader
 		{
 		return true;
 	    }
