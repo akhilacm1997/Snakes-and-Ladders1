@@ -58,7 +58,7 @@ public class SnakeLadders{
 			System.out.println();
 		}
 		
-		System.out.println("Enter 'y ' to roll the dice");
+		System.out.println("Enter 'y' to roll the dice");
 		char y = sc.next().charAt(0);
 		int dice=-1;
 		if(y=='y')
